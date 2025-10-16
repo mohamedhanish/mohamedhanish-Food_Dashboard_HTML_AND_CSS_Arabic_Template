@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>الرئيسيه</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="public/image/Burger" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./public/images/Burger.png" alt="" />
+        <h1>الشعار</h1>
+      </div>
+      <div class="nav_service">
+        <div class="nav_service_search">
+          <input type="text" placeholder="البحث عن الطعام" />
+          <button>فلتر <i class="fas fa-filter"></i></button>
+        </div>
+        <div class="nav_service_user">
+          <i class="search_icon fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-bell"></i>
+          <button>
+            <img src="./public/images/user.jpg" alt="user image" />
+            <span>محمد حنيش</span>
+            <i class="fas fa-angle-down"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <aside>
+        <a href="./index.html" class="active">
+          <i class="fa-solid fa-table-columns"></i>
+          الرئيسيه
+        </a>
+        <a href="./orders.html">
+          <i class="fa-solid fa-burger"></i>
+          طلبات
+        </a>
+        <a href="./feedback.html">
+          <i class="fa-solid fa-comment"></i>
+          ملاحظات
+        </a>
+        <a href="./message.html">
+          <i class="fa-solid fa-envelope"></i>
+          مراسلة
+        </a>
+        <a href="./orderHistory.html">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+          سجل الطلبات
+        </a>
+        <a href="./paymentDetails.html">
+          <i class="fa-solid fa-money-bill"></i>
+          تفاصيل الدفع
+        </a>
+        <a href="./customizitions.html">
+          <i class="fa-solid fa-gear"></i>
+          إعدادات
+        </a>
+      </aside>
+      <section class="dashboard_layout">
+        <h2>استكشاف الفئات</h2>
+        <div class="dashboard_layout_products grid">
+          <div class="dashboard_layout_products_items">
+            <div class="dashboard_layout_products_items_categries_container">
+              <div class="category">
+                <div class="category_img">
+                  <img src="./public/images/Coffee.png" alt="category img" />
+                </div>
+                <h3>قهوة</h3>
+              </div>
+              <div class="category">
+                <div class="category_img">
+                  <img src="./public/images/Burger.png" alt="category img" />
+                </div>
+                <h3>برجر</h3>
+              </div>
+              <div class="category active">
+                <div class="category_img">
+                  <img src="./public/images/Baked.png" alt="category img" />
+                </div>
+                <h3>مخبوز</h3>
+              </div>
+              <div class="category">
+                <div class="category_img">
+                  <img src="./public/images/Chicken.png" alt="category img" />
+                </div>
+                <h3>دجاج</h3>
+              </div>
+              <div class="category">
+                <div class="category_img">
+                  <img src="./public/images/Fast.png" alt="category img" />
+                </div>
+                <h3>وجبة سريعة</h3>
+              </div>
+              <div class="category">
+                <div class="category_img">
+                  <img src="./public/images/seafood.png" alt="category img" />
+                </div>
+                <h3>المأكولات البحرية</h3>
+              </div>
+              <div class="category">
+                <div class="category_img">
+                  <img src="./public/images/Coffee.png" alt="category img" />
+                </div>
+                <h3>قهوة</h3>
+              </div>
+              <div class="category">
+                <div class="category_img">
+                  <img src="./public/images/Coffee.png" alt="category img" />
+                </div>
+                <h3>قهوة</h3>
+              </div>
+            </div>
+            <div class="dashboard_layout_products_items_products_container">
+              <div
+                class="dashboard_layout_products_items_products_container_tabs"
+              >
+                <h3 class="active">شائع</h3>
+                <h3>الأحدث</h3>
+              </div>
+              <div
+                class="dashboard_layout_products_items_products_container_items"
+              >
+                <div
+                  class="dashboard_layout_products_items_products_container_items_card active"
+                >
+                  <div class="products_card_img">
+                    <input type="checkbox" checked />
+                    <img src="./public/images/burger_product.png" alt="" />
+                  </div>
+                  <div class="products_card_desc">
+                    <h4>اسم المنتج</h4>
+                    <div class="products_card_desc_price">
+                      <div class="price">
+                        <span>$25</span>
+                        <del>$30</del>
+                      </div>
+                      <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <span>61.26K</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products_card_btns">
+                    <button>المفضلة</button>
+                    <button>اطلب الان</button>
+                  </div>
+                </div>
+                <div
+                  class="dashboard_layout_products_items_products_container_items_card"
+                >
+                  <div class="products_card_img">
+                    <input type="checkbox" checked />
+                    <img src="./public/images/shawrma.png" alt="" />
+                  </div>
+                  <div class="products_card_desc">
+                    <h4>اسم المنتج</h4>
+                    <div class="products_card_desc_price">
+                      <div class="price">
+                        <span>$25</span>
+                        <del>$30</del>
+                      </div>
+                      <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <span>61.26K</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products_card_btns">
+                    <button>المفضلة</button>
+                    <button>اطلب الان</button>
+                  </div>
+                </div>
+                <div
+                  class="dashboard_layout_products_items_products_container_items_card"
+                >
+                  <div class="products_card_img">
+                    <input type="checkbox" checked />
+                    <img src="./public/images/seafood.png" alt="" />
+                  </div>
+                  <div class="products_card_desc">
+                    <h4>اسم المنتج</h4>
+                    <div class="products_card_desc_price">
+                      <div class="price">
+                        <span>$25</span>
+                        <del>$30</del>
+                      </div>
+                      <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <span>61.26K</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products_card_btns">
+                    <button>المفضلة</button>
+                    <button>اطلب الان</button>
+                  </div>
+                </div>
+                <div
+                  class="dashboard_layout_products_items_products_container_items_card"
+                >
+                  <div class="products_card_img">
+                    <input type="checkbox" checked />
+                    <img src="./public/images/shawrma.png" alt="" />
+                  </div>
+                  <div class="products_card_desc">
+                    <h4>اسم المنتج</h4>
+                    <div class="products_card_desc_price">
+                      <div class="price">
+                        <span>$25</span>
+                        <del>$30</del>
+                      </div>
+                      <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <span>61.26K</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products_card_btns">
+                    <button>المفضلة</button>
+                    <button>اطلب الان</button>
+                  </div>
+                </div>
+                <div
+                  class="dashboard_layout_products_items_products_container_items_card"
+                >
+                  <div class="products_card_img">
+                    <input type="checkbox" checked />
+                    <img src="./public/images/shawrma.png" alt="" />
+                  </div>
+                  <div class="products_card_desc">
+                    <h4>اسم المنتج</h4>
+                    <div class="products_card_desc_price">
+                      <div class="price">
+                        <span>$25</span>
+                        <del>$30</del>
+                      </div>
+                      <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <span>61.26K</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products_card_btns">
+                    <button>المفضلة</button>
+                    <button>اطلب الان</button>
+                  </div>
+                </div>
+                <div
+                  class="dashboard_layout_products_items_products_container_items_card"
+                >
+                  <div class="products_card_img">
+                    <input type="checkbox" checked />
+                    <img src="./public/images/seafood.png" alt="" />
+                  </div>
+                  <div class="products_card_desc">
+                    <h4>اسم المنتج</h4>
+                    <div class="products_card_desc_price">
+                      <div class="price">
+                        <span>$25</span>
+                        <del>$30</del>
+                      </div>
+                      <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <span>61.26K</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products_card_btns">
+                    <button>المفضلة</button>
+                    <button>اطلب الان</button>
+                  </div>
+                </div>
+                <div
+                  class="dashboard_layout_products_items_products_container_items_card"
+                >
+                  <div class="products_card_img">
+                    <input type="checkbox" checked />
+                    <img src="./public/images/shawrma.png" alt="" />
+                  </div>
+                  <div class="products_card_desc">
+                    <h4>اسم المنتج</h4>
+                    <div class="products_card_desc_price">
+                      <div class="price">
+                        <span>$25</span>
+                        <del>$30</del>
+                      </div>
+                      <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <span>61.26K</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products_card_btns">
+                    <button>المفضلة</button>
+                    <button>اطلب الان</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dashboard_layout_products_invoice">
+            <h2>فاتوره</h2>
+            <div class="dashboard_layout_products_invoice_container">
+              <div class="dashboard_layout_products_invoice_container_product">
+                <div class="dashboard_layout_products_invoice_container_img">
+                  <img src="./public/images/burger_product.png" alt="" />
+                </div>
+                <div class="dashboard_layout_products_invoice_container_invo">
+                  <h4>اسم المنتج</h4>
+                  <span>$10</span>
+                </div>
+              </div>
+
+              <div class="dashboard_layout_products_invoice_container_product">
+                <div class="dashboard_layout_products_invoice_container_img">
+                  <img src="./public/images/shawrma.png" alt="" />
+                </div>
+                <div class="dashboard_layout_products_invoice_container_invo">
+                  <h4>اسم المنتج</h4>
+                  <span>$20</span>
+                </div>
+              </div>
+
+              <div class="dashboard_layout_products_invoice_container_product">
+                <div class="dashboard_layout_products_invoice_container_img">
+                  <img src="./public/images/Coffee.png" alt="" />
+                </div>
+                <div class="dashboard_layout_products_invoice_container_invo">
+                  <h4>اسم المنتج</h4>
+                  <span>$15</span>
+                </div>
+              </div>
+
+              <div class="dashboard_layout_products_invoice_container_product">
+                <div class="dashboard_layout_products_invoice_container_img">
+                  <img src="./public/images/Baked.png" alt="" />
+                </div>
+                <div class="dashboard_layout_products_invoice_container_invo">
+                  <h4>اسم المنتج</h4>
+                  <span>$30</span>
+                </div>
+              </div>
+
+              <div class="dashboard_layout_products_invoice_container_product">
+                <div class="dashboard_layout_products_invoice_container_img">
+                  <img src="./public/images/Fish.png" alt="" />
+                </div>
+                <div class="dashboard_layout_products_invoice_container_invo">
+                  <h4>اسم المنتج</h4>
+                  <span>$50</span>
+                </div>
+              </div>
+            </div>
+            <div class="dashboard_layout_products_invoice_payment">
+              <h3>ملخص الدفع</h3>
+              <div class="dashboard_layout_products_invoice_payment_supTotal">
+                <h4>الإجمالي الفرعي</h4>
+                <span>$85</span>
+              </div>
+              <div class="dashboard_layout_products_invoice_payment_supTotal">
+                <h4>الضريبة</h4>
+                <span>-$6</span>
+              </div>
+              <div class="dashboard_layout_products_invoice_payment_supTotal">
+                <h4>المبلغ الإجمالي</h4>
+                <span>$79</span>
+              </div>
+              <div class="dashboard_layout_products_invoice_payment_methods">
+                <h4>طرق الدفع</h4>
+                <div
+                  class="dashboard_layout_products_invoice_payment_methods_container"
+                >
+                  <div class="method_card">
+                    <img src="./public/images/cash.png" alt="cash" />
+                  </div>
+                  <div class="method_card">
+                    <img
+                      src="./public/images/masterCard.png"
+                      alt="masterCard"
+                    />
+                  </div>
+                  <div class="method_card active">
+                    <img src="./public/images/ly-pay-logo.svg" alt="paypal" />
+                  </div>
+                  <div class="method_card">
+                    <img src="./public/images/visa.png" alt="visa" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dashboard_layout_products_invoice_btn">
+              <button>اطلب الآن</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
